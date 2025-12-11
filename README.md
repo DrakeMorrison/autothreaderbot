@@ -29,7 +29,7 @@ Creates a thread every 10 messages unless reset by an anchor user.
 
 6. Run the bot:
 ```
-   python bot.py
+   python autothreadbot.py
 ```
 
 ## Commands
