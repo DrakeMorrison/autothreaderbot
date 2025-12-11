@@ -78,8 +78,7 @@ async def on_message(message):
     # Create thread at 10 messages
     if message_counts[channel_id] >= 10:
         thread = await message.create_thread(
-            name=f"Thread {len(message.channel.threads) + 1}",
-            auto_archive_duration=60
+            name=f"Thread {len(message.channel.threads) + 1}"
         )
         await thread.send("New thread created!")
         message_counts[channel_id] = 0
