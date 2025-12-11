@@ -1,6 +1,6 @@
 # Discord AutoThreader Bot
 
-Creates a thread every 10 messages unless reset by an anchor user.
+Creates a thread every 10 messages unless reset by a message from an anchor user.
 
 ## Setup
 
